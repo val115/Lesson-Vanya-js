@@ -1,0 +1,109 @@
+less II
+caniuse.com
+
+less II=7 Простое общение с пользователем
+ const res = confirm("this is");
+ console.log(res);
+
+const res2 = +promt("this is", "yes");
+ console.log(typeof(res2 + 33));
+
+const ansver = [];
+  ansver[0] = promt("this is 1", "");
+  ansver[1] = promt("this is 2", "");
+  ansver[2] = promt("this is 3", "");
+ document.write( ansver);
+
+less II=8    Интерполяция (ES6)
+
+1less II-10. Учимся работать с системой контроля версий Git и с сервисо…
+Git - создания репозитория (хранит разные варианты проекта)
+1. -Загрузить Git
+2. console (своего проекта)
+	git init - появится папка .git
+3. Для входа нужно педставится (локально или глобально- для всех проектов)
+	git config --local user.name "Val"
+	git config --global user.name "Val"
+	git config --local user.email valfed38@yandex.ru
+	git config --global user.email valfed38@yandex.ru
+	Записываетс в файл .git/config
+----------
+Git - следит за определенными файлами, при изменении файла он попадает в индес - commit - контрольная точка
+git status	- показывает состояние
+git add -A  (A- all -добавить все файлы)
+git status
+git commit -a -m"Lesson Vanya"      (a - add, m - massage)
+ (созалась контрольная точка)
+ ----
+ git log    - показывает фйлы, когдаони были записаны и т.
+
+ --------------
+ Для хранения в интернете используют GiHub
+ gihub.com
+login - val155
+pass  - olik11lolik22
+mail  -fedval173@gmail.com
+
+Создаем репозиторий на gihub
+
+т.к. у нас есть внутренний репозиторий - добавляем
+git remote add origin https://github.com/val115/Lesson-Vanya-js.git
+git branch -M main
+git push -u origin main
+
+при повторном добавлении пишем
+git push
+
+------------
+less II-10.  Как работать с GitHub с разных компьютеров, gitignore и Git Kraken
+
+Копирование на другой компьютер
+git clone https://github.com/val115/Lesson-Vanya-js.git/it project_2 	-    it project_2 куда будет копироваться
+ модифицирум файл
+ git status
+
+ git status	- показывает состояние
+git add -A  (A- all -добавить все файлы)
+git status
+git commit -a -m"Lesson Vanya"      (a - add, m - massage)
+
+git push
+-----------------
+С первоначальной папки
+git pull   -  обновляем файл, который был обновлен на другом компе (в другой папке)
+------
+чтобы выйти из терминала
+ctr + c
+ctr + c
+:wq!
+---------
+Файл .gitignore
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+-------------------
+для удобства просмотра файлов репозитория
+используют прогу  GitKraken - Open a repo
+теперь через GitHub можно открывать репозитории
+
