@@ -1,0 +1,70 @@
+less I-2
+
+https://code.visualstudio.com/docs/setup/windows
+Список необходимых плагинов:
+All Autocomplete
+Auto Close Tag
+Auto Complete Tag
+Auto Rename Tag
+Beautify
+Code Runner
+Import Cost
+JavaScript (ES6) code snippets
+jshint
+Live Server
+Multiple clipboards for VSCode
+Reactjs code snippets
+Sass
+Theme - Oceanic Next
+vscode-icons
+ESLint
+=====================
+
+less-I-3. Как работать с JShint
+Плагин JShint - работа на ошибки
+-установить npm пакет npm i -g jshint
+Надо настроить - файл .jsnhintrc
+jshint.com/docs/options/
+Чтобы эти настройки распространялись на все проекты
+надо этот файл поместить в общие рабочиие папки!!!
+туда можно поместить файл .eslintrc.json
+Внутринней файл перебивает глобальный
+
+
+###########################
+
+less II
+caniuse.com
+
+less II=7 Простое общение с пользователем
+ const res = confirm("this is");
+ console.log(res);
+
+const res2 = +promt("this is", "yes");
+ console.log(typeof(res2 + 33));
+
+const ansver = [];
+  ansver[0] = promt("this is 1", "");
+  ansver[1] = promt("this is 2", "");
+  ansver[2] = promt("this is 3", "");
+ document.write( ansver);
+
+less II=8    Интерполяция (ES6)
+
+1less II-10. Учимся работать с системой контроля версий Git и с сервисо…
+Git - создания репозитория (хранит разные варианты проекта)
+1. -Загрузить Git
+2. console (своего проекта)
+	git init - появится папка .git
+3. Для входа нужно педставится (локально или глобально- для всех проектов)
+	git config --local user.name "Val"
+	git config --global user.name "Val"
+	git config --local user.email valfed38@yandex.ru
+	git config --global user.email valfed38@yandex.ru
+	Записываетс в файл .git/config
+----------
+Git - следит за определенными файлами, при изменении файла он попадает в индес - commit - контрольная точка
+git status	- показывает состояние
+git add -A  (A- all -добавить все файлы)
+git status
+git commit -a -m"Lesson Vanya"      (a - add, m - massage)
