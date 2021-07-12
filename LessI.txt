@@ -68,3 +68,37 @@ git status	- показывает состояние
 git add -A  (A- all -добавить все файлы)
 git status
 git commit -a -m"Lesson Vanya"      (a - add, m - massage)
+ (созалась контрольная точка)
+ ----
+ git log    - показывает фйлы, когдаони были записаны и т.
+
+ --------------
+ Для хранения в интернете используют GiHub
+ gihub.com
+login - val155
+pass  - olik11lolik22
+mail  -fedval173@gmail.com
+
+Создаем репозиторий на gihub
+
+…or create a new repository on the command line
+echo "# Lesson-Vanya-js" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/val115/Lesson-Vanya-js.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/val115/Lesson-Vanya-js.git
+git branch -M main
+git push -u origin main
+
+т.к. у нас есть внутренний репозиторий - добавляем
+git remote add origin https://github.com/val115/Lesson-Vanya-js.git
+git push -u origin main
+
+
+
+
