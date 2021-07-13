@@ -38,5 +38,57 @@ jshint.com/docs/options/
 
 
 
+<<<<<<< HEAD
+=======
+1less II-10. Учимся работать с системой контроля версий Git и с сервисо…
+Git - создания репозитория (хранит разные варианты проекта)
+1. -Загрузить Git
+2. console (своего проекта)
+	git init - появится папка .git
+3. Для входа нужно педставится (локально или глобально- для всех проектов)
+	git config --local user.name "Val"
+	git config --global user.name "Val"
+	git config --local user.email valfed38@yandex.ru
+	git config --global user.email valfed38@yandex.ru
+	Записываетс в файл .git/config
+----------
+Git - следит за определенными файлами, при изменении файла он попадает в индес - commit - контрольная точка
+git status	- показывает состояние
+git add -A  (A- all -добавить все файлы)
+git status
+git commit -a -m"Lesson Vanya"      (a - add, m - massage)
+ (созалась контрольная точка)
+ ----
+ git log    - показывает фйлы, когдаони были записаны и т.
+
+ --------------
+ Для хранения в интернете используют GiHub
+ gihub.com
+login - val155
+pass  - olik11lolik22
+mail  -fedval173@gmail.com
+
+Создаем репозиторий на gihub
+
+…or create a new repository on the command line
+echo "# Lesson-Vanya-js" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/val115/Lesson-Vanya-js.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/val115/Lesson-Vanya-js.git
+git branch -M main
+git push -u origin main
+
+т.к. у нас есть внутренний репозиторий - добавляем
+git remote add origin https://github.com/val115/Lesson-Vanya-js.git
+git push -u origin main
+
+
+>>>>>>> bb3e156a90092b75c6353303a2d445f58651aad8
 
 
